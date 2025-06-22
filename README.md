@@ -5,3 +5,7 @@
 
 
 ![](/image/homepage.jpg)
+
+## list
+
+- `msys2 install`: [/aboutprogram/msys64/readme.md](/aboutprogram/msys64/readme.md)
