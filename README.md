@@ -8,4 +8,6 @@
 
 ## list
 
+- `leetcode problem`: [/leetcode/](/leetcode/)
+- `codeforce problem`: [/codeforce/](/codeforce/)
 - `msys2 install`: [/aboutprogram/msys64/readme.md](/aboutprogram/msys64/readme.md)
