@@ -12,9 +12,9 @@
 - `leetcode problem`: [/leetcode/](/leetcode/)
 - `codeforce problem`: [/codeforce/](/codeforce/)
 - `algorithms`
->- `binary search`: [/aboutprogram/algorithms/binary search/readme.md](/aboutprogram/algorithms/binary search/readme.md)
+>- `binary search`: [/aboutprogram/algorithms/binary%20%search/readme.md](/aboutprogram/algorithms/binary%20%search/readme.md)
 - `tool` 
->- `msys2 install`: [/aboutprogram/msys64/readme.md](/aboutprogram/msys64/readme.md)
+>- `msys2 install`: [/aboutprogram/msys2/readme.md](/aboutprogram/msys2/readme.md)
 
 
 arch1e @ 2025
