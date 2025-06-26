@@ -1,6 +1,7 @@
 # 2025-icpc-practice
 
-## 凛ちゃんの犬になりたい!!!!! 
+>[!tip]
+>可以點擊以下題目網站的連結並使用`ctrl+f`去找題目!
 
 
 
@@ -11,3 +12,6 @@
 - `leetcode problem`: [/leetcode/](/leetcode/)
 - `codeforce problem`: [/codeforce/](/codeforce/)
 - `msys2 install`: [/aboutprogram/msys64/readme.md](/aboutprogram/msys64/readme.md)
+
+
+arch1e @ 2025
