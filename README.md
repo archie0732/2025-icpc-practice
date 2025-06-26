@@ -12,7 +12,7 @@
 - `leetcode problem`: [/leetcode/](/leetcode/)
 - `codeforce problem`: [/codeforce/](/codeforce/)
 - `algorithms`
->- `binary search`: [/aboutprogram/algorithms/binary%20%search/readme.md](/aboutprogram/algorithms/binary%20%search/readme.md)
+>- `binary search`: [/aboutprogram/algorithms/binary%20%search/readme.md]('https://github.com/archie0732/2025-icpc-practice/blob/main/aboutprogram/algorithms/binary%20search/readme.md')
 - `tool` 
 >- `msys2 install`: [/aboutprogram/msys2/readme.md](/aboutprogram/msys2/readme.md)
 
