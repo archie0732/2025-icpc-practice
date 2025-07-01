@@ -74,3 +74,80 @@ class Solution:
 
         return "Radiant" if r else "Dire"
 ```
+
+- c#
+
+```cs
+public class Solution {
+    public string PredictPartyVictory(string senate) {
+        Queue<char> s = new Queue<char>();
+        int rCount = 0;
+        int dCount = 0;
+        
+        for(int i =0; i<senate.Length; i++){
+            s.Enqueue(senate[i]);
+            if(senate[i] == 'R'){
+                rCount++;
+            }
+            else{
+                dCount++;
+            }
+        }
+        if(dCount == 0){
+            return "Radiant";
+        }
+        if(rCount == 0){
+            return "Dire";
+        }
+        
+        int skipr = 0;
+        int skipd = 0;
+        
+        while(s.Count > 0){
+            if(dCount == 0){
+                return "Radiant";
+            }
+            if(rCount == 0){
+                return "Dire";
+            }
+
+            if(s.Count == 1){
+                if(s.Peek() == 'R'){
+                    return "Radiant";
+                }
+                else{
+                    return "Dire";
+                }
+            }
+
+            char fc = s.Dequeue();
+
+            if(skipd > 0 && fc == 'D'){
+                skipd--;
+                dCount--;
+                continue;
+            }
+            if(skipr > 0 && fc == 'R'){
+                skipr--;
+                rCount--;
+                continue;
+            }
+            if(fc == 'R'){
+                skipd++;
+            }
+            else {
+                skipr++;
+            }
+
+            s.Enqueue(fc);
+        }
+
+        if(s.Peek() == 'R'){
+            return "Radiant";
+        }
+        else{
+            return "Dire";
+        }
+    }
+}
+```
