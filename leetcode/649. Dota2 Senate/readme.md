@@ -22,26 +22,26 @@
 class Solution {
 public:
     string predictPartyVictory(string senate) {
-        queue<int> rad, dir;
+        queue<int> r, d;
         int n = senate.length();
         for (int i = 0; i < n; i++){
             if (senate[i] == 'R'){
-                rad.push(i);
+                r.push(i);
             }
             else {
-                dir.push(i);
+                d.push(i);
             }
         }
-        while (!rad.empty() && !dir.empty()){
-            if (rad.front() < dir.front()){
-                rad.push(n++);
+        while (!r.empty() && !d.empty()){
+            if (r.front() < d.front()){
+                r.push(n++);
             }
             else {
-                dir.push(n++);
+                d.push(n++);
             }
-            rad.pop(), dir.pop();
+            r.pop(), d.pop();
         }
-        return (rad.empty()) ? ("Dire") : ("Radiant");
+        return (r.empty()) ? ("Dire") : ("Radiant");
     }
 };
 ```
