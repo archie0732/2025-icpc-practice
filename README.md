@@ -1,7 +1,8 @@
 # 2025-icpc-practice
 
 >[!tip]
->可以點擊以下題目網站的連結並使用`ctrl+f`去找題目!
+>可以點擊以下題目網站的連結並使用`ctrl+f`去找題目!<br>
+>或是前往網站 [auto check homework](https://auto-check-hw.vercel.app/slove/)
 
 
 
