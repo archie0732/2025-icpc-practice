@@ -53,13 +53,13 @@ public:
             return a[1] < b[1]; // 由結束日先的決定
         });
 
-        for(int i = 1; i <= n; i++){
+        for(int i = 0; i < n; i++){
             int prev = -1, left = 0, right = events.size();
 
             while(left <= right){
                 int mid = (left + right ) / 2;
 
-                if(events[mid][1] < events[i - 1][0]){
+                if(events[mid][1] < events[i][0]){
                     prev = mid;
                     left = mid + 1;
                 }
@@ -69,7 +69,7 @@ public:
 
             for(int j = 1; j <= k ; j++){
 
-                dp[i][j] = max(dp[i - 1][j], dp[prev + 1][j - 1] + events[i - 1][2]);
+                dp[i+1][j] = max(dp[i][j], dp[prev + 1][j - 1] + events[i][2]);
             }
         }
 
