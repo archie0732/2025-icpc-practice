@@ -93,7 +93,7 @@ private:
         return prefix;
     }
 
-    // a ^ (b - 2) % m
+    // a ^ (m - 2) % m
     // 快速冪
     int calculateModulo (long long base, long long exp){
         long long res = 1;
