@@ -22,7 +22,7 @@
 
 根據 `.`  把數字分開並比大小(`.`後沒有數字就是0)
 
-### CPP CODE
+### CODE
 
 ```cpp
 class Solution {
@@ -49,4 +49,25 @@ public:
         return 0;
     }
 };
+```
+- `any()` 表示任一一個符合即為`True`
+
+```py
+class Solution:
+    def compareVersion(self, version1: str, version2: str) -> int:
+        v1 = version1.split('.')
+        v2 = version2.split('.')
+
+        for x1, x2 in zip(v1, v2):
+            if int(x1) > int(x2): return 1
+            elif int(x1) < int(x2): return -1
+
+        n1 = len(v1) 
+        n2 = len(v2)
+
+        if n1 < n2:
+            return -1 if any(int(v2[i]) > 0 for i in range(n1, n2)) else 0
+        elif n1 > n2:
+            return 1 if any(int(v1[i]) > 0 for i in range(n2, n1)) else 0
+        return 0
 ```
