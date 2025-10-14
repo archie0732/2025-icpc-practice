@@ -49,3 +49,23 @@ class Solution:
         return []
 
 ```
+
+- 更快的（左與右同時看）
+
+```py
+class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        l = 0; r = len(numbers) - 1
+
+        while l < r:
+            total = numbers[r] + numbers[l]
+
+            if total == target:
+                return sorted([l+1, r+1])
+            elif total > target:
+                r -= 1
+            else:
+                l +=1
+
+        return []
+``
