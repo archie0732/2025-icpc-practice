@@ -1,6 +1,6 @@
 # 1744 C. Traffic Light
 
-[link](https://codeforces.com/problemset/problem/1744/C)
+[question](https://codeforces.com/problemset/problem/1744/C)
 
 ## 解題
 
