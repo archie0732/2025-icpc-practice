@@ -67,3 +67,5 @@ class Solution:
             return -1
         return res + n - 1
 ```
+
+2025 @ arch1e & copyright
