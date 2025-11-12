@@ -15,7 +15,7 @@
 cur = 0
 mx = 0
 for x in arr:
-  cur = max(cur, cur + x)
+  cur = max(x, cur + x)
   mx = max(mx, cur)
 return mx
 ```
