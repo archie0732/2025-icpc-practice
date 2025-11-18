@@ -3,7 +3,7 @@
 >[!note]
 > Easy array
 
-[717. 1-bit and 2-bit Characters]*https://leetcode.com/problems/1-bit-and-2-bit-characters/?envType=daily-question&envId=2025-11-18)
+[717. 1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/?envType=daily-question&envId=2025-11-18)
 
 ## 解題
 
