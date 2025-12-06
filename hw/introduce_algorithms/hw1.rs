@@ -46,8 +46,6 @@ fn main() {
         }
     }
 
-    println!("=================");
-
     for i in 0..n {
         let row_strings: Vec<String> = dist[i].iter().map(|&val| val.to_string()).collect();
         println!("{}", row_strings.join(" "));
