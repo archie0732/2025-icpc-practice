@@ -4,24 +4,36 @@
 >可以點擊以下題目網站的連結並使用`ctrl+f`去找題目!<br>
 >或是前往網站 [https://r7-code.vercel.app](https://auto-check-hw.vercel.app/slove/)
 
->[!important]
-> 因為晉級icpc所以會在增加 atCoder 與 UVA 的題目
+- 比賽經歷
 
+|比賽 | 名次 |
+|----|-----|
+|2024 PUPC | 銅牌 |
+|2024 NCPC| 晉級 |
+|2025 TOPC | 銅牌 |
+|2025 NCPC | 晉級 |
+|2025 ICPC | 晉級|
 
-![](/image/homepage.jpg)
+刷題紀錄
+- 全部 774 題
+- 簡易 274
+- 中等 234
+- 困難 266
 
-## list
+[leetcode arch1e 的個人檔案](https://leetcode.com/u/archie0732/)
 
-- `leetcode problem`: [/leetcode/](/leetcode/)
-- `codeforce problem`: [/codeforce/](/codeforce/)
-- `algorithms`
->- `binary search`: [/aboutprogram/algorithms/binary%20search/readme.md](/aboutprogram/algorithms/binary%20search/readme.md)
-- `tool` 
->- `msys2 install`: [/aboutprogram/msys2/readme.md](/aboutprogram/msys2/readme.md)
+>紀錄截止 至 20251207
 
+## 使用方法
 
-arch1e @ 2025
+- 點擊網站的資料夾 -> 點擊題目名稱的資料夾 -> README.md 為解題詳細過程
+
+- 或是使用我自建的網站
+
+[https://auto-check-hw.vercel.app/slove/](https://auto-check-hw.vercel.app/slove/)
+
+>進入後點選題目就可以看到詳細解題過程
 
 <p align="center">
-  <a href="https://ko-fi.com/arch1e0732"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on ko-fi!" /></a>
+  <img src="./image/homepage.jpg" width="50%"/>
 </p>
