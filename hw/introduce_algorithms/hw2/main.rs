@@ -5,7 +5,7 @@ fn main() {
     let stdin = io::stdin();
     let mut lines = stdin.lock().lines();
 
-    let seq1_str = lines.next().unwrap().expect("Failed to read line 1");
+    let seq1_str = lines.next().unwrap().unwrap();
     let seq1: Vec<char> = seq1_str.trim().chars().collect();
 
     let seq2_str = lines.next().unwrap().expect("Failed to read line 2");

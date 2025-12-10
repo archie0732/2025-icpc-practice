@@ -1,0 +1,5 @@
+F = {<v1, v5>, <v5, v4>, <v1, v3>, <v4, v2>}
+v1, v5, v4, v2 (length = 5)
+v1, v3 (length = 4)
+v1, v5, v4 (length = 2)
+v1, v5 (length = 1)
