@@ -37,3 +37,12 @@
 <p align="center">
   <img src="./image/homepage.jpg" width="50%"/>
 </p>
+
+
+## CPE 考題
+
+|題目|題號|星級|連結|
+|--|--|--|--|
+|The 3n + 1 problem|UVA 100|1|[The 3n + 1 problem](/uva/uva100.py)|
+
+
