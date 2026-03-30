@@ -18,7 +18,7 @@ $`{base}^{exp}`$
 $`13 = {1101}_2 ​= 8 + 4 + 1 `$
 
 可以轉換為:
-
+  
 $`a^{13} = a^8 × a^4 × a^1`$
 
 **我們只需要把 a 不斷平方，然後挑選二進制裡是 1 的次方數來相乘。**
@@ -41,4 +41,3 @@ long long modPow(long long base, long long exp, long long mod) {
 ```
 
 要配合前綴積相除取餘，請見 **Fermat’s Little Theorem 費馬小定理**
-
