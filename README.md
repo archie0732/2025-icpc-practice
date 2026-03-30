@@ -46,3 +46,5 @@
 |Mutant Flatworld Explorers|UVA 118|1|[118. Mutant Flatworld Explorers](/uva/118.%20Mutant%20Flatworld%20Explorers.py)|
 |TEX Quotes|UVA 272|1|[272. TEX Quotes](/uva/272.%20TEX%20Quotes.py)|
 |948. Fibonaccimal Base|1|[948. Fibonaccimal Base](/uva/948.%20Fibonaccimal%20Base.py)|
+|108. Maximum Sum|2|[108. Maximum Sum](/uva/108.%20Maximum%20Sum.py)|
+
